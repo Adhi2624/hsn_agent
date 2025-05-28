@@ -1,0 +1,3 @@
+chromadb
+google-adk
+pandas
