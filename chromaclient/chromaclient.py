@@ -25,11 +25,11 @@ class Chroma():
             )
 
     def getDatas(self, description):
-        print(description)
+        
         res = self.collection.query(
             query_texts=[description]
         )
-        print(res)
+        
         response = [{i: j} for i, j in zip(res['ids'][0], res['documents'][0])]
         return response
 
@@ -39,6 +39,6 @@ class Chroma():
         res = self.collection.get(
             ids=code
         )
-        print(res)
+       
         response = [{i: j} for i, j in zip(res['ids'], res['documents'])]
         return response
