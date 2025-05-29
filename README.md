@@ -19,6 +19,15 @@ This project streamlines HSN code management for trade and commerce applications
 - **Conversational Interface**: Supports interactive queries via a web interface powered by ADK, allowing users to input HSN codes or descriptions.
 - **Scalable Architecture**: Uses Chroma’s persistent storage and ADK’s modular components for performance with large datasets.
 
+## 📽️ Explanation Video
+
+[![Watch the Explanation video](https://s6.imgcdn.dev/YM6zTL.th.png)](https://drive.google.com/file/d/1GfL19kbmAP3q0l1cqp3ZLoIaZFtdivg2/view?usp=sharing)
+
+
+> Click the image above to watch the Explanation video on Google Drive.
+
+
+
 ## Dataset
 
 The project uses the master dataset `HSN_SAC.xlsx - HSN_MSTR.csv`, located in the `data/` directory. The dataset contains:
